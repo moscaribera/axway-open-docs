@@ -137,7 +137,7 @@ From the July 2020 update the following API Gateway libraries will be replaced b
 
 ### Renamed artifacts
 
-The following artifacts under the `system\lib` folder will be renamed from the July 2020 update as:
+The following artifacts under the `system/lib` folder will be renamed from the July 2020 update as:
 
 | May 2020 artifact                                | July 2020 artifact                                |
 | ------------------------------------------------ | ------------------------------------------------- |
