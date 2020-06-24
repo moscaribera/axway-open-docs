@@ -91,6 +91,60 @@ API Gateway already supports the industry standard Internet Content Adaption Pro
 
 Content scanning is still supported using the ICAP filter, which provides out-of-the-box integration with ICAP-capable servers provided by Symantec, McAfee, OPSWAT and others, promoting ease of deployment and operational control.
 
+### Deprecated libraries
+
+From the July 2020 update the following API Gateway libraries will be replaced by the different artifacts below under the `system/lib` folder:
+
+| May 2020 library              | July 2020 artifact                             |
+| ----------------------------- | ---------------------------------------------- |
+| `anttasks.jar`                | `vordel-core-7.7.0.20200730-*.jar`             |
+| | |
+| `apiportal.jar`               | `vordel-core-7.7.0.20200730-*.jar`<br>`vordel-apimanager-7.7.0.20200730-*.jar`<br>`plugins/vordel-common-7.7.0.20200730-*.jar` |
+| | |
+| `circuit.jar`                 | `vordel-core-circuit-7.7.0.20200730-*.jar`<br>`vordel-core-precipitate-7.7.0.20200730-*.jar`<br>`vordel-core-runtime-7.7.0.20200730-*.jar` |
+| | |
+| `client.jar`                  | `vordel-core-circuit-7.7.0.20200730-*.jar`     |
+| | |
+| `common.jar`                  | `vordel-apibroker-7.7.0.20200730-*.jar`<br>`vordel-apimanager-7.7.0.20200730-*.jar`<br>`vordel-apigateway-7.7.0.20200730-*.jar`<br>`vordel-api-model-7.7.0.20200730-*.jar`<br>`vordel-core-7.7.0.20200730-*.jar`<br>`vordel-core-api-7.7.0.20200730-*.jar`<br>`vordel-core-circuit-7.7.0.20200730-*.jar`<br>`vordel-core-circuit-format-7.7.0.20200730-*.jar`<br>`vordel-core-controller-7.7.0.20200730-*.jar`<br>`vordel-core-model-7.7.0.20200730-*.jar`<br>`vordel-core-runtime-7.7.0.20200730-*.jar`<br>`plugins/vordel-common-7.7.0.20200730-*.jar` |
+| | |
+| `com.vordel.jms.jar`          | `vordel-core-circuit-7.7.0.20200730-*.jar`     |
+| | |
+| `jwkjose.jar`                 | `vordel-core-7.7.0.20200730-*.jar`             |
+| | |
+| `jwsdl-emf-impl.jar`          | `vordel-xml-utils-7.7.0.20200730-*.jar`        |
+| | |
+| `logger.jar`                  | `vordel-core-7.7.0.20200730-*.jar`<br>`vordel-apigateway-7.7.0.20200730-*.jar`<br>`vordel-core-runtime-7.7.0.20200730-*.jar` |
+| | |
+| `manager.jar`                 | `vordel-apibroker-7.7.0.20200730-*.jar`<br>`vordel-core-circuit-7.7.0.20200730-*.jar` |
+| | |
+| `oauthclient.jar`             | `vordel-core-circuit-7.7.0.20200730-*.jar`     |
+| | |
+| `openidconnect.jar`           | `vordel-core-7.7.0.20200730-*.jar`             |
+| | |
+| `precipitate.jar`             | `vordel-core-precipitate-7.7.0.20200730-*.jar` |
+| | |
+| `security.jar`                | `vordel-core-7.7.0.20200730-*.jar`<br>`vordel-apigateway-7.7.0.20200730-*.jar`<br>`vordel-core-circuit-7.7.0.20200730-*.jar`<br>`plugins/vordel-common-7.7.0.20200730-*.jar` |
+| | |
+| `server.jar`                  | `vordel-core-7.7.0.20200730-*.jar`             |
+| | |
+| `upgrade.jar`                 | `vordel-apigateway-7.7.0.20200730-*.jar`       |
+| | |
+| `wspolicy.jar`                | `vordel-core-circuit-7.7.0.20200730-*.jar`<br>`vordel-xml-utils-7.7.0.20200730-*.jar` |
+| | |
+| `xmlutils.jar`                | `vordel-xml-utils-7.7.0.20200730-*.jar`        |
+| | |
+| `embeddedAMQ/embeddedAMQ.jar` | `vordel-core-7.7.0.20200730-*.jar`<br>`vordel-apigateway-7.7.0.20200730-*.jar` |
+
+### Renamed artifacts
+
+The following artifacts under the `system\lib` folder will be renamed from the July 2020 update as:
+
+| May 2020 artifact                                | July 2020 artifact                                |
+| ------------------------------------------------ | ------------------------------------------------- |
+| `com.vordel.circuit.cache-7.7.0.20200530-2.jar`  | `vordel-core-circuit-cache-7.7.0.20200730-*.jar`  |
+| `com.vordel.circuit.format-7.7.0.20200530-2.jar` | `vordel-core-circuit-format-7.7.0.20200730-*.jar` |
+| `com.vordel.circuit.smtp-7.7.0.20200530-2.jar`   | `vordel-core-circuit-smtp-7.7.0.20200730-*.jar`   |
+
 ## Removed features
 
 <!-- Add features that are removed here -->
