@@ -125,7 +125,7 @@ From the July 2020 update the following API Gateway libraries will be replaced b
 | | |
 | `security.jar`                | `vordel-core-7.7.0.20200730-*.jar`<br>`vordel-apigateway-7.7.0.20200730-*.jar`<br>`vordel-core-circuit-7.7.0.20200730-*.jar`<br>`vordel-core-http-7.7.0.20200730-*.jar`<br>`plugins/vordel-common-7.7.0.20200730-*.jar` |
 | | |
-| `server.jar`                  | `vordel-core-7.7.0.20200730-*.jar`<br>`vordel-apibroker-7.7.0.20200730-*.jar`<br>`vordel-apigateway-7.7.0.20200730-*.jar`<br>`vordel-persistence-7.7.0.20200730-*.jar`<br>`plugins/vordel-common-7.7.0.20200730-*.jar` |
+| `server.jar`                  | `vordel-core-7.7.0.20200730-*.jar`<br>`vordel-apibroker-7.7.0.20200730-*.jar`<br>`vordel-apigateway-7.7.0.20200730-*.jar`<br>`vordel-core-model-7.7.0.20200730-*.jar`<br>`vordel-persistence-7.7.0.20200730-*.jar`<br>`plugins/vordel-common-7.7.0.20200730-*.jar` |
 | | |
 | `upgrade.jar`                 | `vordel-apigateway-7.7.0.20200730-*.jar`       |
 | | |
