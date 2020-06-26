@@ -95,37 +95,62 @@ Content scanning is still supported using the ICAP filter, which provides out-of
 
 From the July 2020 update the following API Gateway libraries will be replaced by the listed artifacts under the `system/lib` folder.
 
-| May 2020 library              | July 2020 artifact                             |
-| ----------------------------- | ---------------------------------------------- |
-| `anttasks.jar`                | `vordel-core-7.7.0.20200730-*.jar`             |
-| `apiportal.jar`               | `vordel-core-7.7.0.20200730-*.jar`, `vordel-apigateway-7.7.0.20200730-*.jar`, `vordel-apibroker-7.7.0.20200730-*.jar`, `vordel-apimanager-7.7.0.20200730-*.jar`, `vordel-api-io-7.7.0.20200730-*.jar`, `vordel-api-model-7.7.0.20200730-*.jar`, `vordel-core-api-7.7.0.20200730-*.jar`, `vordel-core-controller-7.7.0.20200730-*.jar`, `vordel-core-model-7.7.0.20200730-*.jar`, `vordel-metrics-7.7.0.20200730-*.jar`, `vordel-persistence-7.7.0.20200730-*.jar`, `vordel-swagger-builder-7.7.0.20200730-*.jar`, `vordel-swagger-model-7.7.0.20200730-*.jar`, `plugins/vordel-common-7.7.0.20200730-*.jar` |
-| `circuit.jar`                 | `vordel-core-circuit-7.7.0.20200730-*.jar`, `vordel-core-precipitate-7.7.0.20200730-*.jar`, `vordel-core-runtime-7.7.0.20200730-*.jar` |
-| `client.jar`                  | `vordel-core-circuit-7.7.0.20200730-*.jar`     |
-| `common.jar`                  | `vordel-apibroker-7.7.0.20200730-*.jar`, `vordel-apimanager-7.7.0.20200730-*.jar`, `vordel-apigateway-7.7.0.20200730-*.jar`, `vordel-api-model-7.7.0.20200730-*.jar`, `vordel-core-7.7.0.20200730-*.jar`, `vordel-core-api-7.7.0.20200730-*.jar`, `vordel-core-circuit-7.7.0.20200730-*.jar`, `vordel-core-circuit-format-7.7.0.20200730-*.jar`, `vordel-core-controller-7.7.0.20200730-*.jar`, `vordel-core-model-7.7.0.20200730-*.jar`, `vordel-core-runtime-7.7.0.20200730-*.jar`, `plugins/vordel-common-7.7.0.20200730-*.jar` |
-| `com.vordel.jms.jar`          | `vordel-core-circuit-7.7.0.20200730-*.jar`     |
-| `jwkjose.jar`                 | `vordel-core-7.7.0.20200730-*.jar`             |
-| `jwsdl-emf-impl.jar`          | `vordel-xml-utils-7.7.0.20200730-*.jar`        |
-| `logger.jar`                  | `vordel-core-7.7.0.20200730-*.jar`, `vordel-apigateway-7.7.0.20200730-*.jar`, `vordel-core-runtime-7.7.0.20200730-*.jar` |
-| `manager.jar`                 | `vordel-apibroker-7.7.0.20200730-*.jar`, `vordel-core-circuit-7.7.0.20200730-*.jar` |
-| `oauthclient.jar`             | `vordel-core-circuit-7.7.0.20200730-*.jar`     |
-| `openidconnect.jar`           | `vordel-core-7.7.0.20200730-*.jar`             |
-| `precipitate.jar`             | `vordel-core-precipitate-7.7.0.20200730-*.jar` |
-| `security.jar`                | `vordel-core-7.7.0.20200730-*.jar`, `vordel-apigateway-7.7.0.20200730-*.jar`, `vordel-core-circuit-7.7.0.20200730-*.jar`, `vordel-core-http-7.7.0.20200730-*.jar`, `plugins/vordel-common-7.7.0.20200730-*.jar` |
-| `server.jar`                  | `vordel-core-7.7.0.20200730-*.jar`, `vordel-apibroker-7.7.0.20200730-*.jar`, `vordel-apigateway-7.7.0.20200730-*.jar`, `vordel-api-model-7.7.0.20200730-*.jar`, `vordel-common-db-7.7.0.20200730-*.jar`, `vordel-core-circuit-7.7.0.20200730-*.jar`, `vordel-core-http-7.7.0.20200730-*.jar`, `vordel-core-model-7.7.0.20200730-*.jar`, `vordel-core-precipitate-7.7.0.20200730-*.jar`, `vordel-core-runtime-7.7.0.20200730-*.jar`, `vordel-core-servletcontainer-7.7.0.20200730-*.jar`, `vordel-kps-7.7.0.20200730-*.jar`, `vordel-metrics-7.7.0.20200730-*.jar`, `vordel-nodemanager-client-7.7.0.20200730-*.jar`, `vordel-persistence-7.7.0.20200730-*.jar`, `vordel-xml-utils-7.7.0.20200730-*.jar`, `plugins/vordel-common-7.7.0.20200730-*.jar` |
-| `upgrade.jar`                 | `vordel-apigateway-7.7.0.20200730-*.jar`       |
-| `wspolicy.jar`                | `vordel-core-circuit-7.7.0.20200730-*.jar`, `vordel-xml-utils-7.7.0.20200730-*.jar` |
-| `xmlutils.jar`                | `vordel-xml-utils-7.7.0.20200730-*.jar`        |
-| `embeddedAMQ/embeddedAMQ.jar` | `vordel-core-7.7.0.20200730-*.jar`, `vordel-apigateway-7.7.0.20200730-*.jar` |
+| May 2020 library              | July 2020 artifact                    |
+| ----------------------------- | ------------------------------------- |
+| `anttasks.jar`                | `vordel-core-7.7.0.*.jar`             |
+| `apiportal.jar`               | `vordel-core-7.7.0.*.jar`, `vordel-apigateway-7.7.0.*.jar`, `vordel-apibroker-7.7.0.*.jar`, `vordel-apimanager-7.7.0.*.jar`, `vordel-api-io-7.7.0.*.jar`, `vordel-api-model-7.7.0.*.jar`, `vordel-core-api-7.7.0.*.jar`, `vordel-core-controller-7.7.0.*.jar`, `vordel-core-model-7.7.0.*.jar`, `vordel-metrics-7.7.0.*.jar`, `vordel-persistence-7.7.0.*.jar`, `vordel-swagger-builder-7.7.0.*.jar`, `vordel-swagger-model-7.7.0.*.jar`, `plugins/vordel-common-7.7.0.*.jar` |
+| `circuit.jar`                 | `vordel-core-circuit-7.7.0.*.jar`, `vordel-core-precipitate-7.7.0.*.jar`, `vordel-core-runtime-7.7.0.*.jar` |
+| `client.jar`                  | `vordel-core-circuit-7.7.0.*.jar`     |
+| `common.jar`                  | `vordel-apibroker-7.7.0.*.jar`, `vordel-apimanager-7.7.0.*.jar`, `vordel-apigateway-7.7.0.*.jar`, `vordel-api-model-7.7.0.*.jar`, `vordel-core-7.7.0.*.jar`, `vordel-core-api-7.7.0.*.jar`, `vordel-core-circuit-7.7.0.*.jar`, `vordel-core-circuit-format-7.7.0.*.jar`, `vordel-core-controller-7.7.0.*.jar`, `vordel-core-model-7.7.0.*.jar`, `vordel-core-runtime-7.7.0.*.jar`, `plugins/vordel-common-7.7.0.*.jar` |
+| `com.vordel.jms.jar`          | `vordel-core-circuit-7.7.0.*.jar`     |
+| `jwkjose.jar`                 | `vordel-core-7.7.0.*.jar`             |
+| `jwsdl-emf-impl.jar`          | `vordel-xml-utils-7.7.0.*.jar`        |
+| `logger.jar`                  | `vordel-core-7.7.0.*.jar`, `vordel-apigateway-7.7.0.*.jar`, `vordel-core-runtime-7.7.0.*.jar` |
+| `manager.jar`                 | `vordel-apibroker-7.7.0.*.jar`, `vordel-core-circuit-7.7.0.*.jar` |
+| `oauthclient.jar`             | `vordel-core-circuit-7.7.0.*.jar`     |
+| `openidconnect.jar`           | `vordel-core-7.7.0.*.jar`             |
+| `precipitate.jar`             | `vordel-core-precipitate-7.7.0.*.jar` |
+| `security.jar`                | `vordel-core-7.7.0.*.jar`, `vordel-apigateway-7.7.0.*.jar`, `vordel-core-circuit-7.7.0.*.jar`, `vordel-core-http-7.7.0.*.jar`, `plugins/vordel-common-7.7.0.*.jar` |
+| `server.jar`                  | `vordel-core-7.7.0.*.jar`, `vordel-apibroker-7.7.0.*.jar`, `vordel-apigateway-7.7.0.*.jar`, `vordel-api-model-7.7.0.*.jar`, `vordel-common-db-7.7.0.*.jar`, `vordel-core-circuit-7.7.0.*.jar`, `vordel-core-http-7.7.0.*.jar`, `vordel-core-model-7.7.0.*.jar`, `vordel-core-precipitate-7.7.0.*.jar`, `vordel-core-runtime-7.7.0.*.jar`, `vordel-core-servletcontainer-7.7.0.*.jar`, `vordel-kps-7.7.0.*.jar`, `vordel-metrics-7.7.0.*.jar`, `vordel-nodemanager-client-7.7.0.*.jar`, `vordel-persistence-7.7.0.*.jar`, `vordel-xml-utils-7.7.0.*.jar`, `plugins/vordel-common-7.7.0.*.jar` |
+| `upgrade.jar`                 | `vordel-apigateway-7.7.0.*.jar`       |
+| `wspolicy.jar`                | `vordel-core-circuit-7.7.0.*.jar`, `vordel-xml-utils-7.7.0.*.jar` |
+| `xmlutils.jar`                | `vordel-xml-utils-7.7.0.*.jar`        |
+| `embeddedAMQ/embeddedAMQ.jar` | `vordel-core-7.7.0.*.jar`, `vordel-apigateway-7.7.0.*.jar` |
 
 ### Renamed artifacts
 
 From the July 2020 update the following artifacts under the `system/lib` folder will be renamed.
 
-| May 2020 artifact                                | July 2020 artifact                                |
-| ------------------------------------------------ | ------------------------------------------------- |
-| `com.vordel.circuit.cache-7.7.0.20200530-2.jar`  | `vordel-core-circuit-cache-7.7.0.20200730-*.jar`  |
-| `com.vordel.circuit.format-7.7.0.20200530-2.jar` | `vordel-core-circuit-format-7.7.0.20200730-*.jar` |
-| `com.vordel.circuit.smtp-7.7.0.20200530-2.jar`   | `vordel-core-circuit-smtp-7.7.0.20200730-*.jar`   |
+| May 2020 artifact                       | July 2020 artifact                       |
+| --------------------------------------- | ---------------------------------------- |
+| `com.vordel.circuit.cache-7.7.0.*.jar`  | `vordel-core-circuit-cache-7.7.0.*.jar`  |
+| `com.vordel.circuit.format-7.7.0.*.jar` | `vordel-core-circuit-format-7.7.0.*.jar` |
+| `com.vordel.circuit.smtp-7.7.0.*.jar`   | `vordel-core-circuit-smtp-7.7.0.*.jar`   |
+
+### SDK libraries
+
+The SDK libraries will be updated as follows from the July 2020 update.
+
+| Java package                         | Old jar       | New jar                         |
+| ------------------------------------ | ------------- | ------------------------------- |
+| `com.vordel.api.adminusers.client`   | `server.jar`  | `vordel-apigateway-7.7.0.*.jar` |
+| `com.vordel.api.adminusers.model`    | `server.jar`  | `vordel-apigateway-7.7.0.*.jar` |
+| `com.vordel.api.configuration.model` | `server.jar`  | `vordel-apigateway-7.7.0.*.jar` |
+| `com.vordel.api.deployment.client`   | `server.jar`  | `vordel-apigateway-7.7.0.*.jar` |
+| `com.vordel.api.deployment.model`    | `server.jar`  | `vordel-apigateway-7.7.0.*.jar` |
+| `com.vordel.api.monitoring.model`    | `server.jar`  | `vordel-apigateway-7.7.0.*.jar` |
+| `com.vordel.api.nm`                  | `server.jar`  | `vordel-apigateway-7.7.0.*.jar`, `vordel-nodemanager-client-7.7.0.*.jar` |
+| `com.vordel.api.topology.client`     | `server.jar`  | `vordel-nodemanager-client-7.7.0.*.jar` |
+| `com.vordel.api.topology.model`      | `server.jar`  | `vordel-core-model-7.7.0.*.jar` |
+| `com.vordel.circuit`                 | `circuit.jar` | `vordel-core-circuit-7.7.0.*.jar`, `vordel-core-precipitate-7.7.0.*.jar`, `vordel-core-runtime-7.7.0.*.jar` |
+| `com.vordel.circuit.oauth.token`     | `com.vordel.circuit.oauth.jar` | `vordel-core-circuit-7.7.0.*.jar` |
+| `com.vordel.config`                  | `vordel-config-7.7.0.*.jar` | `vordel-config-7.7.0.*.jar` |
+| `com.vordel.dwe`                     | `server.jar`  | `vordel-core-7.7.0.*.jar` |
+| `com.vordel.env`                     | `vordel-env-7.7.0.*.jar` | `vordel-env-7.7.0.*.jar` |
+| `com.vordel.mime`                    | `server.jar`  | `vordel-core-circuit-7.7.0.*.jar`, `vordel-core-runtime-7.7.0.*.jar` |
+| `com.vordel.oauth.client.providers`  | `oauthclient.jar` | `vordel-core-circuit-7.7.0.*.jar` |
+| `com.vordel.reporting.rtm.api`       | `server.jar`  | `vordel-metrics-7.7.0.*.jar` |
+| `com.vordel.statistics`              | `server.jar`  | `vordel-core-runtime-7.7.0.*.jar` |
 
 ## Removed features
 
