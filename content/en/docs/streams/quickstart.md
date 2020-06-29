@@ -6,8 +6,6 @@ date: 2019-04-02
 description: Learn how to create your first Event-Driven API with AMPLIFY Streams.
 ---
 
-*Estimated reading time*: 2 minutes
-
 ## Before you start
 
 * Register to Streams Early Adopter Program to get access to AMPLIFY Streams and installation materials.

@@ -6,8 +6,6 @@ date: 2019-07-30
 description: Learn how to register your first API in AMPLIFY Central.
 ---
 
-*Estimated reading time*: 2 minutes
-
 ## Before you start
 
 * Read [AMPLIFY Central overview](/docs/central/overview)

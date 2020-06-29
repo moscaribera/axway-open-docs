@@ -6,8 +6,6 @@ date: 2019-07-30
 description: Deploy and secure your services in any environment (for example, cloud, on-premise, and so on) and govern your APIs through a central platform that allows you to integrate your services safely and easily with both internal and external consumers.
 ---
 
-*Estimated reading time*: 2 minutes
-
 AMPLIFY Central is a governance platform that enables a self-service centralized API and microservices management across virtualized networks in any cloud platform or in a private datacenter. Its core features provide API security, monitoring, and traffic management independent of the implementation of the API.
 
 The following diagram shows full lifecycle API management, and the role of AMPLIFY Central in governing, exposing, and monitoring API traffic flowing within your organization.

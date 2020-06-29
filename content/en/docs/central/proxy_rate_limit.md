@@ -6,8 +6,6 @@ date: 2019-09-19
 description: Learn how to apply a rate limit configuration to your API.
 ---
 
-_Estimated reading time_: 5 minutes
-
 ## Before you start
 
 * You will need an administrator account for AMPLIFY Central

@@ -3,6 +3,7 @@ title: AMPLIFY Streams documentation
 linkTitle: AMPLIFY Streams
 weight: 170
 date: 2019-04-02
+hide_readingtime: true
 description: Learn how to augment your existing infrastructure with an event hub that facilitates the exchange of messages/events between devices, (micro) services and applications. Go beyond the traditional request-response paradigm and its limitations. AMPLIFY Streams uses event-driven APIs such as server-sent events (SSE) and Webhooks to help you adopt event-driven integration patterns with your ecosystem.
 ---
 

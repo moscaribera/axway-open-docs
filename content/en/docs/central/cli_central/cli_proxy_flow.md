@@ -6,8 +6,6 @@ date: 2020-06-01T00:00:00.000Z
 description: Learn how your DevOps service can use AMPLIFY Central CLI to manage your Axway SaaS Gateway API proxies.
 ---
 
-*Estimated reading time*: 5 minutes
-
 ## Before you start
 
 * If you are applying security to your Axway SaaS Gateway API proxy, you will need a basic understanding of Basic Authentication ([RFC 7617](https://tools.ietf.org/html/rfc7617)).

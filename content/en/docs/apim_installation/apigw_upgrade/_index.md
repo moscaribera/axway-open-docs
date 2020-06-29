@@ -3,6 +3,7 @@
     "linkTitle": "Upgrade API Gateway",
     "weight": 50,
     "date": "2019-10-07",
+    "hide_readingtime": "true",
     "description": "Upgrade an existing API Gateway installation."
 }
 

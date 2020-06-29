@@ -6,8 +6,6 @@ date: 2020-06-10T00:00:00.000Z
 description: Learn how your DevOps process can use the AMPLIFY Central CLI to publish an API service to the Unified Catalog. You will also learn how to create other resource types, which can be used by your API service, in your environment. You can use the scripting of CLI commands to automate the process to create multiple resource types in your environment.
 ---
 
-*Estimated reading time*: 30 minutes
-
 {{< alert title="Public beta" color="warning" >}}This feature is currently in **public beta** and not yet available for production use.{{< /alert >}}
 
 ## Before you start

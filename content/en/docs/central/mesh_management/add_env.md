@@ -6,8 +6,6 @@ date: 2020-03-18
 description: Learn how to add your environments to AMPLIFY Central so that you can manage your microservices and any related APIs they expose.
 ---
 
-*Estimated reading time*: 8 minutes
-
 {{< alert title="Public beta" color="warning" >}}This feature is currently in **public beta** and not yet available for production use.{{< /alert >}}
 
 ## Before you start

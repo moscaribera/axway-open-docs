@@ -4,6 +4,7 @@
 "weight":"35",
 "no_list": "true",
 "date": "2019-11-07",
+"hide_readingtime": "true",
 "description": "AMPLIFY API Management tools to develop, deploy, and manage API solutions."
 }
 

@@ -5,7 +5,6 @@ weight: 110
 date: 2020-06-10T00:00:00.000Z
 description: Learn how your DevOps process can use AMPLIFY Central CLI to build and manage API services in your environments.
 ---
-*Estimated reading time*: 5 minutes
 
 ## Before you start
 

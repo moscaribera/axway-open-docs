@@ -3,6 +3,7 @@ title: Axway Support Portal API documentation
 linkTitle: Axway Support Portal API
 weight: 10
 date: 2020-03-05
+hide_readingtime: true
 description: Self-service your support interactions with the Support Portal API.
 ---
 

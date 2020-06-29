@@ -6,8 +6,6 @@ date: 2019-07-30
 description: Learn how to configure a CFT (Cross File Transfer) profile in AMPLIFY Central.
 ---
 
-*Estimated reading time*: 1 minute
-
 ## Before you start
 
 * You will need a user account for AMPLIFY Central

@@ -6,7 +6,6 @@ date: 2020-05-29T00:00:00.000Z
 description: Learn how to install AMPLIFY CLI and authorize your DevOps service
   to use the AMPLIFY Central DevOps APIs by way of AMPLIFY Central CLI.
 ---
-*Estimated reading time*: 10 minutes
 
 ## Before you start
 

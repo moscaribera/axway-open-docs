@@ -6,8 +6,6 @@ date: 2019-07-30
 description: Understand what mesh governance is, what a hybrid environment is, and how you can manage the APIs and microservices in a hybrid environment from AMPLIFY Central.
 ---
 
-*Estimated reading time*: 3 minutes
-
 {{< alert title="Public beta" color="warning" >}}This feature is currently in **public beta** and not yet available for production use.{{< /alert >}}
 
 ## What is mesh governance?

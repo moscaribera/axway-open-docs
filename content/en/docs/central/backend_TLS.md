@@ -6,8 +6,6 @@ date: 2019-10-16
 description: Learn how to configure TLS for requests to your back-end API.
 ---
 
-*Estimated reading time*: 2 minutes
-
 ## Before you start
 
 * You will need an administrator account for AMPLIFY Central
